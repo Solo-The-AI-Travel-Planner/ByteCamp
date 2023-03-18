@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:solo/thirdpage.dart';
+import 'thirdpage.dart';
 
 
 class SecondPage extends StatefulWidget {
@@ -26,13 +26,14 @@ class _SecondPageState extends State<SecondPage> {
       ),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.fromLTRB(20,20,20,1),
           child: GridView.builder(
             itemCount: imagesList.length,
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3,
-            crossAxisSpacing: 10,
-            mainAxisSpacing: 10,),
+            crossAxisCount: 2,
+            crossAxisSpacing: 25,
+            mainAxisSpacing: 25,
+            mainAxisExtent: 245,),
             itemBuilder: (context, index) {
               return GestureDetector(
                 onTap: () {

@@ -28,12 +28,12 @@ class _FirstPageState extends State<FirstPage> {
       body: Center(
         child: newindex == 1
             ? Container(
-                margin: const EdgeInsets.fromLTRB(15, 80, 15, 15),
+                margin: const EdgeInsets.fromLTRB(30, 20, 30, 30),
                 decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(17)),
-                    color: Colors.purpleAccent),
-                height: 300,
-                width: 280,
+                    color: Color.fromARGB(255, 230, 226, 205)),
+                height: 320,
+                width: 320,
                 child: Center(
                   child: SizedBox(
                     width: 240,
@@ -41,23 +41,25 @@ class _FirstPageState extends State<FirstPage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        const Center(
-                            child: Text('Enter the place you want to visit?')),
+                        const Padding(
+                          padding: EdgeInsets.fromLTRB(10,10,10,1),
+                          child: Center(
+                              child: Text('Enter the place you want to visit?')),
+                        ),
                         TextField(
                           controller: textclear,
                         ),
                         const Center(
-                            child: Text('How Many days do you want to visit?')),
+                            child: Text('\nHow Many days do you want to visit?')),
                         TextField(
                           controller: textclear1,
                         ),
                         Container(
-                          margin: const EdgeInsets.fromLTRB(35, 15, 35, 15),
-                          child: Row(
-                            
+                          margin: const EdgeInsets.fromLTRB(15, 5, 15, 5),
+                          child: Row( 
                             children: [
                               Padding(
-                                padding: const EdgeInsets.fromLTRB(1,15,9,15),
+                                padding: const EdgeInsets.fromLTRB(20,5,5,2),
                                 child: ElevatedButton(
                                   style: ElevatedButton.styleFrom(
                                     onPrimary: Colors.red,
@@ -78,7 +80,7 @@ class _FirstPageState extends State<FirstPage> {
                                 ),
                               ),
                               Padding(
-                                padding: const EdgeInsets.fromLTRB(8,15,2,15),
+                                padding: const EdgeInsets.fromLTRB(8,5,10,2),
                                 child: ElevatedButton(
                                     style: ElevatedButton.styleFrom(
                                       onPrimary: Colors.red,
