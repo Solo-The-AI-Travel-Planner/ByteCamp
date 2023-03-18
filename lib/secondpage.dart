@@ -18,6 +18,7 @@ class _SecondPageState extends State<SecondPage> {
     'https://media.gettyimages.com/id/956525828/photo/vashi-navi-mumbai-birds-eye-view.jpg?s=612x612&w=gi&k=20&c=-UBfEQi4wtPXGWFNkqOBt4UAPPcL9Z5kCb6OYUbXcOY=',
     'https://socialstatusdp.com/wp-content/uploads/2022/12/Lord-Krishna-Images-with-Flute-with-forest-Background.jpg',
   ];
+  int newindex1 = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,7 +34,7 @@ class _SecondPageState extends State<SecondPage> {
             crossAxisCount: 2,
             crossAxisSpacing: 25,
             mainAxisSpacing: 25,
-            mainAxisExtent: 245,),
+            mainAxisExtent: 180,),
             itemBuilder: (context, index) {
               return GestureDetector(
                 onTap: () {
@@ -45,12 +46,28 @@ class _SecondPageState extends State<SecondPage> {
                   decoration: BoxDecoration(borderRadius: BorderRadius.circular(15),
                   image: DecorationImage(image: NetworkImage(imagesList[index]),
                   fit: BoxFit.cover),
-                  )
+                  ),
                 ),
+                
               );
             },)
+            
       ),
-      )
-    );
+      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   items: const [
+      //     BottomNavigationBarItem(label: 'Back', icon: Icon(Icons.arrow_back)),
+      //     BottomNavigationBarItem(
+      //         label: 'Next', icon: Icon(Icons.arrow_forward)),
+      //   ],
+      //   currentIndex: newindex1,
+      //   onTap: (int index) {
+      //     setState(() {
+      //       newindex1 = index;
+      //     });
+      //   },
+      // ),
+      );
+    
   }
 }

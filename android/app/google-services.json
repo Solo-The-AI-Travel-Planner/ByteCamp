@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "674301639266",
+    "project_id": "solo-travel-app-e347f",
+    "storage_bucket": "solo-travel-app-e347f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674301639266:android:87f9f2a02ff7b9a5f42f3b",
+        "android_client_info": {
+          "package_name": "com.example.solo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674301639266-uqujjocqfo5stur7gbau4j4qls5fbq4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD14uHzDudTp4Ku0VBgS5_-uEa4D9IcuuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674301639266-uqujjocqfo5stur7gbau4j4qls5fbq4v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "674301639266-neklk59ado6hdckecefhip3agmn521bi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.solo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
