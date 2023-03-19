@@ -26,8 +26,7 @@ class _FirstPageState extends State<FirstPage> {
         title: const Text('Solo - Trip planner'),
       ),
       body: Center(
-        child: newindex == 1
-            ? Container(
+        child: Container(
                 margin: const EdgeInsets.fromLTRB(30, 20, 30, 30),
                 decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(17)),
@@ -96,39 +95,8 @@ class _FirstPageState extends State<FirstPage> {
                     ),
                   ),
                 ),
-              )
-            : Container(
-                margin: const EdgeInsets.fromLTRB(0, 70, 0, 20),
-                child: Column(
-                  children: [
-                    const SizedBox(
-                      child: Padding(
-                        padding: EdgeInsets.all(12.0),
-                        child: Text(
-                          'Welcome To Solo-The Trip planner\n\n\n',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.bold),
-                        ),
-                      ),
-                    ),
-                    Image.network(
-                        'https://media.istockphoto.com/id/1221227577/photo/end-of-the-world-street-in-chile-patagonia.jpg?s=612x612&w=0&k=20&c=PamhXMjErITclVZRV7E43je3FPFI7IxhAM-U_2qhR_E=')
-                  ],
-                ),
               ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const [
-          BottomNavigationBarItem(label: 'Home', icon: Icon(Icons.home)),
-          BottomNavigationBarItem(
-              label: 'Next', icon: Icon(Icons.arrow_forward)),
-        ],
-        currentIndex: newindex,
-        onTap: (int index) {
-          setState(() {
-            newindex = index;
-          });
-        },
+
       ),
     );
   }

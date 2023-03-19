@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:solo/home.dart';
 import 'firstpage.dart';
 void main() {
   runApp(MyApp());
@@ -16,8 +17,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstPage(),
+      home: home(),
     );
   }
 }
-

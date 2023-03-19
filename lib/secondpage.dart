@@ -11,12 +11,12 @@ class SecondPage extends StatefulWidget {
 
 class _SecondPageState extends State<SecondPage> {
   List<String> imagesList=[
-    'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
-    'https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg',
-    'https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg',
-    'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg',
-    'https://media.gettyimages.com/id/956525828/photo/vashi-navi-mumbai-birds-eye-view.jpg?s=612x612&w=gi&k=20&c=-UBfEQi4wtPXGWFNkqOBt4UAPPcL9Z5kCb6OYUbXcOY=',
-    'https://socialstatusdp.com/wp-content/uploads/2022/12/Lord-Krishna-Images-with-Flute-with-forest-Background.jpg',
+    'https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/73/34.jpg',
+    'https://upload.wikimedia.org/wikipedia/commons/3/30/Entrance_of_Sanjay_Gandhi_National_Park.JPG',
+    'https://images.hindustantimes.com/img/2022/10/03/1600x900/ef78534e-35f4-11ed-aaf6-899a59fb6c14_1663356420429_1664755278172_1664755278172.jpg',
+    'https://polkajunction.com/wp-content/uploads/2016/10/image2.jpeg',
+    'https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/01/25/Pictures/flora-fountain-aditya-thackaray_621ef8f0-20cb-11e9-abd9-895ad40f6f04.jpg',
+    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/88/31/7d/suraj-water-park.jpg?w=1200&h=-1&s=1',
   ];
   int newindex1 = 0;
   @override
@@ -34,7 +34,7 @@ class _SecondPageState extends State<SecondPage> {
             crossAxisCount: 2,
             crossAxisSpacing: 25,
             mainAxisSpacing: 25,
-            mainAxisExtent: 180,),
+            mainAxisExtent: 195,),
             itemBuilder: (context, index) {
               return GestureDetector(
                 onTap: () {
