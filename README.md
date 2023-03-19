@@ -26,7 +26,7 @@ Planning trips with just a few clicks, plan trips to unknown cities and get the 
 **Available for both iOS and Android.**
 
 <p align="center">
-  <img src = "http://i.imgur.com/HowF6aM.png" width=350>
+  <img src = "https://github.com/Solo-The-AI-Travel-Planner/ByteCamp/blob/main/Images/WhatsApp%20Image%202023-03-19%20at%2010.19.54%20AM.jpeg" width=350>
 </p>
 
 ## Features
@@ -41,11 +41,11 @@ A few of the things you can do with Solo:
 * Portable and user friendly.
 
 <p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
+  <img src = "https://github.com/Solo-The-AI-Travel-Planner/ByteCamp/blob/main/Images/WhatsApp%20Image%202023-03-19%20at%2010.19.55%20AM.jpeg" width=700>
 </p>
 
 <p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
+  <img src = "https://github.com/Solo-The-AI-Travel-Planner/ByteCamp/blob/main/Images/WhatsApp%20Image%202023-03-19%20at%2010.19.55%20AM%20(1).jpeg" width=700>
 </p>
 
 ## Build Process
@@ -60,3 +60,8 @@ A few of the things you can do with Solo:
 ## Limitations and errors
 - Backend configuration while connecting to Flask.
 - Sorting the attractions according to users preference.
+
+## Results
+<p align = "center">
+<img src="https://github.com/Solo-The-AI-Travel-Planner/ByteCamp/blob/main/Images/WhatsApp%20Image%202023-03-19%20at%2010.19.55%20AM%20(1).jpeg">
+</p>
